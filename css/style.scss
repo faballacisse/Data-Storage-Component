@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#icons-container {
+
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#first-box {
+    background-color: hsl(228, 56%, 26%);
+    width: 350px;
+    height: 201px;
+    background: #1E2D69;
+    box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
+    border-radius: 10px 100px 10px 10px;
+    justify-content: center;
+}
+
+.icon {
+    background-color: hsl(229, 57%, 11%);
+    width: 50px;
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+
+
+}
+
+#logo-container {
+    padding-top: 15px;
+    padding-left: 30px;
+    margin-top: 100px;
+}
