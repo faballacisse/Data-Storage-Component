@@ -215,8 +215,9 @@ footer a {
 
 @media screen and (max-width: 375px) {
   .main_second-box--progress-bar--sub2 {
-    top: 533px;
+    top: 473px;
     right: 118px;
+    position: fixed;
   }
 }
 
@@ -251,7 +252,7 @@ footer a {
   border-radius: 10px 10px 0px 10px;
   width: 175px;
   height: 84px;
-  position: fixed;
+  position: absolute;
   top: -60px;
   right: 40px;
 }
@@ -259,8 +260,8 @@ footer a {
 @media screen and (max-width: 375px) {
   .main_second-box--white {
     border-radius: 10px 10px 10px 10px;
-    position: absolute;
-    top: 590px;
+    position: fixed;
+    top: 530px;
     right: 90px;
   }
 }

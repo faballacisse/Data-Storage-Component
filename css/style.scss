@@ -181,8 +181,9 @@ footer {
                 right: 156px;
 
                 @media screen and(max-width : $mobile) {
-                    top: 533px;
+                    top: 473px;
                     right: 118px;
+                    position: fixed;
                 }
             }
         }
@@ -213,14 +214,14 @@ footer {
             border-radius: 10px 10px 0px 10px;
             width: 175px;
             height: 84px;
-            position: fixed;
+            position: absolute;
             top: -60px;
             right: 40px;
 
             @media screen and(max-width : $mobile) {
                 border-radius: 10px 10px 10px 10px;
-                position: absolute;
-                top: 590px;
+                position: fixed;
+                top: 530px;
                 right: 90px;
             }
 
