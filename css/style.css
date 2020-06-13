@@ -10,7 +10,7 @@ body {
   height: 100vh;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   body {
     background-image: url(/images/bg-mobile.svg);
     background-size: cover;
@@ -46,7 +46,7 @@ footer a {
           align-items: center;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .main {
     background-image: initial;
     background-position: initial;
@@ -76,9 +76,10 @@ footer a {
           box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
   border-radius: 10px 100px 10px 10px;
   margin: 15px auto;
+  margin-right: 20px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .main_first-box {
     width: 326px;
     height: 201px;
@@ -133,12 +134,12 @@ footer a {
   -webkit-box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
           box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
   border-radius: 10px;
-  margin-left: 30px;
-  margin-top: 100px;
+  margin: 15px auto;
+  margin-left: 20px;
   position: relative;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .main_second-box {
     width: 326px;
     height: 196px;
@@ -150,12 +151,12 @@ footer a {
 .main_second-box--sentence {
   font-family: "Raleway", sans-serif;
   color: #dddbff;
-  margin-left: 30px;
-  padding-top: 0px;
+  margin-left: 45px;
+  margin-top: 50px;
   font-size: 14px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .main_second-box--sentence {
     padding-bottom: 10px;
     margin-left: 40px;
@@ -174,9 +175,10 @@ footer a {
   border-radius: 10px;
   margin: 10px auto;
   border: 2px solid #0c122c;
+  margin-top: 30px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .main_second-box--progress-bar {
     width: 262px;
     height: 20px;
@@ -194,7 +196,7 @@ footer a {
   margin-bottom: 3px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .main_second-box--progress-bar--sub1 {
     width: 193px;
     height: 14px;
@@ -207,13 +209,13 @@ footer a {
   height: 13px;
   border-radius: 60px;
   position: absolute;
-  top: 67px;
+  top: 100px;
   right: 156px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .main_second-box--progress-bar--sub2 {
-    top: 500px;
+    top: 533px;
     right: 120px;
   }
 }
@@ -254,11 +256,11 @@ footer a {
   right: 40px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .main_second-box--white {
     border-radius: 10px 10px 10px 10px;
     position: absolute;
-    top: 570px;
+    top: 590px;
     right: 90px;
   }
 }
@@ -302,7 +304,7 @@ footer a {
   right: 40px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .main_second-box--triangle {
     display: none;
   }

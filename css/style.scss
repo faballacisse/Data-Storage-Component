@@ -11,7 +11,7 @@ body {
     border: 0px;
     height: 100vh;
 
-    @media screen and(min-width : $mobile) {
+    @media screen and(max-width : $mobile) {
         background-image: url(/images/bg-mobile.svg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -41,7 +41,7 @@ footer {
     justify-content: center;
     align-items: center;
 
-    @media screen and(min-width : $mobile) {
+    @media screen and(max-width : $mobile) {
         background-image: initial;
         background-position: initial;
         background-size: initial;
@@ -62,8 +62,9 @@ footer {
         box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
         border-radius: 10px 100px 10px 10px;
         margin: 15px auto;
+        margin-right: 20px;
 
-        @media screen and(min-width : $mobile) {
+        @media screen and(max-width : $mobile) {
             width: 326px;
             height: 201px;
             margin: 15px auto;
@@ -115,11 +116,12 @@ footer {
         height: 201px;
         box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
         border-radius: 10px;
-        margin-left: 30px;
-        margin-top: 100px;
+        margin: 15px auto;
+        margin-left: 20px;
+        //margin-top: 100px;
         position: relative;
 
-        @media screen and(min-width : $mobile) {
+        @media screen and(max-width : $mobile) {
             width: 326px;
             height: 196px;
             margin: 15px auto;
@@ -129,11 +131,11 @@ footer {
         &--sentence {
             font-family: $Font-Family;
             color: $PaleBlue;
-            margin-left: 30px;
-            padding-top: 0px;
+            margin-left: 45px;
+            margin-top: 50px;
             font-size: $NormalFont;
 
-            @media screen and(min-width : $mobile) {
+            @media screen and(max-width : $mobile) {
                 padding-bottom: 10px;
                 margin-left: 40px;
             }
@@ -151,8 +153,9 @@ footer {
             border-radius: 10px;
             margin: 10px auto;
             border: 2px solid $VeryDarkBlue;
+            margin-top: 30px;
 
-            @media screen and(min-width : $mobile) {
+            @media screen and(max-width : $mobile) {
                 width: 262px;
                 height: 20px;
             }
@@ -167,7 +170,7 @@ footer {
                 margin-top: 1px;
                 margin-bottom: 3px;
 
-                @media screen and(min-width : $mobile) {
+                @media screen and(max-width : $mobile) {
                     width: 193px;
                     height: 14px;
                 }
@@ -181,11 +184,11 @@ footer {
                 height: 13px;
                 border-radius: 60px;
                 position: absolute;
-                top: 67px;
+                top: 100px;
                 right: 156px;
 
-                @media screen and(min-width : $mobile) {
-                    top: 500px;
+                @media screen and(max-width : $mobile) {
+                    top: 533px;
                     right: 120px;
 
                 }
@@ -223,10 +226,10 @@ footer {
             top: -60px;
             right: 40px;
 
-            @media screen and(min-width : $mobile) {
+            @media screen and(max-width : $mobile) {
                 border-radius: 10px 10px 10px 10px;
                 position: absolute;
-                top: 570px;
+                top: 590px;
                 right: 90px;
             }
 
@@ -265,7 +268,7 @@ footer {
             top: 23px;
             right: 40px;
 
-            @media screen and(min-width : $mobile) {
+            @media screen and(max-width : $mobile) {
                 display: none;
             }
         }
