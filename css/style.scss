@@ -21,6 +21,7 @@ body {
     padding-left: 20px;
     padding-bottom: 20px;
     clear: both;
+    text-align: center;
 }
 
 #first-box {
@@ -38,8 +39,8 @@ body {
     background-color: hsl(229, 57%, 11%);
     width: 50px;
     height: 50px;
-    margin: 20px;
-    border: 1px solid black;
+    margin: 25px 12px 5px 12px;
+
     text-align: center;
     border-radius: 5px;
     align-self: center;
@@ -139,4 +140,13 @@ p {
 
 #blue {
     background-color: black;
+}
+
+
+img[alt='upload'] {
+    padding: 5px 3px;
+}
+
+img[alt='folder'] {
+    padding: 5px 3px;
 }
