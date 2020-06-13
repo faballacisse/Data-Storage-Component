@@ -7,20 +7,25 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  background-image: url(/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  width: 1866px;
+  height: 1437px;
+  text-align: center;
 }
 
 #icons-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-left: 20px;
 }
 
 #first-box {
   background-color: #1d2c67;
-  width: 350px;
-  height: 201px;
+  width: 326px;
+  height: 200px;
   background: #1E2D69;
   -webkit-box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
           box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
@@ -28,6 +33,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 10px;
 }
 
 .icon {
@@ -46,8 +52,25 @@ body {
 }
 
 #logo-container {
-  padding-top: 15px;
-  padding-left: 30px;
+  padding-top: 35px;
+  padding-left: 35px;
   margin-top: 100px;
+}
+
+#logo-container img {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+#second-block {
+  width: 326px;
+  height: 200px;
+}
+
+main {
+  width: 326px;
+  height: 413px;
+  border: 1px solid black;
+  margin: 127px 24px;
 }
 /*# sourceMappingURL=style.css.map */
