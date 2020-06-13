@@ -216,7 +216,7 @@ footer a {
 @media screen and (max-width: 375px) {
   .main_second-box--progress-bar--sub2 {
     top: 533px;
-    right: 120px;
+    right: 118px;
   }
 }
 
@@ -251,7 +251,7 @@ footer a {
   border-radius: 10px 10px 0px 10px;
   width: 175px;
   height: 84px;
-  position: absolute;
+  position: fixed;
   top: -60px;
   right: 40px;
 }
