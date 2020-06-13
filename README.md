@@ -27,5 +27,6 @@ You will find all the required assets in the `/images` folder. The assets are al
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
 
-## Deploy your project : on Netfily for me 🚀
+## Deploy your project : done via Netfily 🚀 Here's the link to the website I've coded : https://youthful-golick-2078d8.netlify.app/
+
 
