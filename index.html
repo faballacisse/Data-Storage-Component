@@ -16,44 +16,78 @@
 <body>
   <!--Mobile-first approach-->
 
-  <main>
-    <div id='first-box'>
-      <div id='logo-container'>
+  <main class='main'>
+
+    <!--1. first blue box (start) -->
+    <div class='main_first-box'>
+
+
+      <!--1.a LOGO -->
+      <div class='main_first-box--logo'>
         <img src="/images/logo.svg" alt="">
       </div>
-      <div id='icons-container'>
-        <div class='icon'>
+
+      <!--1.b ICONS (start) -->
+      <div class='main_first-box--icons'>
+
+        <!-- document -->
+        <div class='main_first-box--icons--doc'>
           <img src="/images/icon-document.svg" alt="document">
         </div>
-        <div class='icon'>
+
+        <!-- folder -->
+        <div class='main_first-box--icons--folder'>
           <img src="/images/icon-folder.svg" alt="folder">
         </div>
-        <div class='icon'>
+
+        <!-- upload -->
+        <div class='main_first-box--icons--upload'>
           <img src="/images/icon-upload.svg" alt="upload">
         </div>
+
+        <!-- 1.b ICONS (end) -->
       </div>
+
+      <!--1. first blue box (end) -->
     </div>
 
 
-    <div id='second-box'>
+
+    <!--2. second blue box (start)-->
+    <div class='main_second-box'>
       <br>
-      <span id='used-GB'> You’ve used <span id='gb-815'>815 GB</span> of your storage</span>
-      <div id='progress-bar-blue'>
-        <div id='progress-bar-pink'></div>
+
+      <!--2.a sentence -->
+      <p class='main_second-box--sentence'> You’ve used <span class='main_first-box--sentence--bold'>815 GB</span> of
+        your storage</p>
+
+      <!--2.b progress-bar -->
+      <div class='main_second-box--progressbar'>
+        <div class='main_second-box--progressbar--sub1'></div>
+        <div class='main_second-box--progressbar--sub2'></div>
       </div>
-      <div id='progress-bar-white'></div>
-      <span id='zero'>0 GB</span>
-      <span id='mille'>1000 GB</span>
+
+      <!--2.c measures -->
+      <div class='main_second-box--measures'>
+        <span class='main_second-box--measures--1'>0 GB</span>
+        <span class='main_second-box-measures--2'>1000 GB</span>
+      </div>
+
+      <!--3. white storage box -->
+      <div class='main_second-box--white'>
+        <p class='main_second-box--white--storage'><span class='main_second-box--white--storage--bold'>185</span> GB
+          Left</p>
+      </div>
+
+      <!--2. second blue box (end)-->
     </div>
 
 
-
-    <div id='p-container'>
-      <p><span id='cent85'>185</span><span id='gb-left'>GB Left</span> </p>
-    </div>
-    </div>
   </main>
-  <footer class="attribution">
+
+
+  <!--FOOTER-->
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Faballa Cissé</a>
   </footer>
