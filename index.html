@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Challenge | Fylo data storage component</title>
-
+  <script src="https://kit.fontawesome.com/457a827424.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -36,29 +36,33 @@
 
 
     <div id='second-block'>
-      <div id='used-GB'>
-        <span> You’ve used 815 GB of your storage</span>
-      </div>
+      <span id='used-GB'> You’ve used 815 GB of your storage</span>
+
       <div id='loader-container'>
-        <div id='in-progress'>
-          <img src="" alt="">
+        <div id='progress-bar-blue'>
+          <div id='progress-bar-pink'></div>
         </div>
-        <div id='values-GB'>
-          <span id='zero'>0 GB</span> <span id='mille'>1000 GB</span>
-        </div>
-      </div>
-      <div id='p-container'>
-        <p><span id='cent85'>185</span>GB Left</p>
+        <div id='progress-bar-white'></div>
       </div>
 
+      <span id='zero'>0 GB</span>
+      <span id='mille'>1000 GB</span>
+
+    </div>
+
+
+
+    <div id='p-container'>
+      <p><span id='cent85'>185</span><span id='gb-left'>GB Left</span> </p>
+    </div>
     </div>
   </main>
 
 
 
-  <footer class="attribution">
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Faballa Cissé</a>.
+    Coded by <a href="#">Faballa Cissé</a>
   </footer>
 
 </body>
