@@ -75,6 +75,7 @@ body {
   margin-bottom: 30px;
   position: relative;
   text-align: center;
+  margin-top: 15px;
 }
 
 main {
@@ -93,21 +94,20 @@ main {
           justify-content: space-between;
 }
 
-#used-GB span {
+#used-GB {
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
   color: #dbd9ff;
-  margin-top: 15px;
+  padding-top: 20px;
 }
 
 p {
   width: 180px;
   height: 75px;
   position: absolute;
-  bottom: -50px;
+  bottom: 70px;
   right: 80px;
   background: #ffffff;
   -webkit-box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
@@ -190,17 +190,17 @@ footer {
   opacity: 0.5;
   border-radius: 10px;
   position: relative;
-  margin: 35px;
+  margin: 25px;
 }
 
 #progress-bar-white {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   background: #ffffff;
   border-radius: 30px;
-  top: 57px;
-  right: 102px;
+  top: 65px;
+  right: 110px;
 }
 
 #zero {
