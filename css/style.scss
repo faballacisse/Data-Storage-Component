@@ -1,5 +1,5 @@
 //importing external styling data
-@import 'variables';
+@import "variables";
 
 * {
     box-sizing: border-box;
@@ -10,7 +10,6 @@ body {
     padding: 0px;
     border: 0px;
     height: 100vh;
-
 }
 
 footer {
@@ -21,7 +20,6 @@ footer {
         color: hsl(228, 45%, 44%);
     }
 }
-
 
 .main {
     width: 100%;
@@ -34,7 +32,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
 
     &_first-box {
         background-color: $DarkBlue;
@@ -56,7 +53,6 @@ footer {
             margin-left: 25px;
             margin-bottom: 35px;
 
-
             &--doc {
                 width: 48px;
                 height: 48px;
@@ -64,7 +60,6 @@ footer {
                 background-color: $VeryDarkBlue;
                 border-radius: 8px;
                 padding: 10px 10px 5px 15px;
-
             }
 
             &--folder {
@@ -94,29 +89,89 @@ footer {
         border-radius: 10px;
         margin-left: 30px;
         margin-top: -150px;
+        position: relative;
 
-        &--sentence {}
+        &--sentence {
+            font-family: $Font-Family;
+            color: $PaleBlue;
+            margin-left: 30px;
+            padding-top: 0px;
+            font-size: $NormalFont;
+
+            &--bold {
+                font-weight: bold;
+            }
+        }
 
         &--progress-bar {
+            background-color: $VeryDarkBlue;
 
-            &--sub1 {}
+            &--sub1 {
+                background-color: $Gradient;
+            }
 
-            &--sub2 {}
+            &--sub2 {
+                background-color: white;
+            }
         }
 
         &--measures {
+            color: $PaleBlue;
+            font-size: $SmallFont;
 
-            &--1 {}
+            &--1 {
+                font-family: $Font-Family;
+            }
 
-            &--2 {}
+            &--2 {
+                font-family: $Font-Family;
+            }
         }
 
         &--white {
+            color: $VeryDarkBlue;
+            background: #ffffff;
+            box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
+            border-radius: 10px 10px 0px 10px;
+            width: 175px;
+            height: 84px;
+            position: absolute;
+            top: -60px;
+            right: 40px;
 
-            &--value {}
+            &--value {
+                font-family: $Font-Family;
+                //padding: 8px 5px 20px 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &--bold {
+                    font-weight: bold;
+                    font-size: 40px;
+                    margin-right: 10px;
+                    display: block;
+                }
+
+                &--light {
+                    text-transform: uppercase;
+                    font-size: $SmallFont;
+                    display: block;
+                    opacity: 0.5;
+                }
+            }
         }
 
+        &--triangle {
+            background: $DarkBlue;
+            display: inline-block;
+            height: 0;
+            width: 0;
+            border-top: 26px solid white;
+            border-left: 22px solid transparent;
+            position: absolute;
+            top: 23px;
+            right: 40px;
+        }
     }
-
-
 }
