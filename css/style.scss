@@ -108,35 +108,52 @@ footer {
             width: 448px;
             height: 23px;
             mix-blend-mode: normal;
-            opacity: 0.5;
             border-radius: 10px;
             margin: 10px auto;
+            border: 2px solid $VeryDarkBlue;
+
 
 
             &--sub1 {
                 width: 331px;
-                height: 16px;
+                height: 17px;
                 background: linear-gradient(90deg, #FFA197 0%, #FF4A95 100%);
-                ,
-                ;
                 border-radius: 8px;
+                margin-left: 2px;
+                margin-top: 1px;
+                margin-bottom: 3px;
+
+
             }
 
             &--sub2 {
                 background-color: white;
+                width: 11px;
+                height: 13px;
+                border-radius: 60px;
+                position: absolute;
+                top: 67px;
+                right: 156px;
+
             }
         }
 
         &--measures {
             color: $PaleBlue;
             font-size: $SmallFont;
+            font-weight: bold;
+            font-family: $Font-Family;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 40px;
+            margin-right: 40px;
 
             &--1 {
-                font-family: $Font-Family;
+                display: block;
             }
 
             &--2 {
-                font-family: $Font-Family;
+                display: block;
             }
         }
 

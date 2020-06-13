@@ -115,27 +115,56 @@ footer a {
 
 .main_second-box--progress-bar {
   background-color: #0c122c;
+  width: 448px;
+  height: 23px;
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  margin: 10px auto;
+  border: 2px solid #0c122c;
 }
 
 .main_second-box--progress-bar--sub1 {
-  background-color: #ffa399 to #ff4d97;
+  width: 331px;
+  height: 17px;
+  background: -webkit-gradient(linear, left top, right top, from(#FFA197), to(#FF4A95));
+  background: linear-gradient(90deg, #FFA197 0%, #FF4A95 100%);
+  border-radius: 8px;
+  margin-left: 2px;
+  margin-top: 1px;
+  margin-bottom: 3px;
 }
 
 .main_second-box--progress-bar--sub2 {
   background-color: white;
+  width: 11px;
+  height: 13px;
+  border-radius: 60px;
+  position: absolute;
+  top: 67px;
+  right: 156px;
 }
 
 .main_second-box--measures {
   color: #dddbff;
   font-size: 12px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .main_second-box--measures--1 {
-  font-family: "Raleway", sans-serif;
+  display: block;
 }
 
 .main_second-box--measures--2 {
-  font-family: "Raleway", sans-serif;
+  display: block;
 }
 
 .main_second-box--white {
