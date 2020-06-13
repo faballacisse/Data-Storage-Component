@@ -76,6 +76,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 #used-GB {
@@ -201,4 +202,15 @@ footer {
     position: absolute;
     top: 90px;
     right: 30px;
+}
+
+footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #dbd9ff;
+
 }
