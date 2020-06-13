@@ -10,6 +10,14 @@ body {
   height: 100vh;
 }
 
+@media screen and (min-width: 375px) {
+  body {
+    background-image: url(/images/bg-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 footer {
   text-align: center;
   margin: 10px 0;
@@ -38,6 +46,28 @@ footer a {
           align-items: center;
 }
 
+@media screen and (min-width: 375px) {
+  .main {
+    background-image: initial;
+    background-position: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-color: initial;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -60px;
+    position: relative;
+  }
+}
+
 .main_first-box {
   background-color: #1d2c67;
   width: 350px;
@@ -45,12 +75,19 @@ footer a {
   -webkit-box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
           box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
   border-radius: 10px 100px 10px 10px;
-  margin-right: 30px;
-  margin-top: -150px;
+  margin: 15px auto;
+}
+
+@media screen and (min-width: 375px) {
+  .main_first-box {
+    width: 326px;
+    height: 201px;
+    margin: 15px auto;
+  }
 }
 
 .main_first-box--logo {
-  margin: 30px;
+  margin: 40px;
 }
 
 .main_first-box--icons {
@@ -59,8 +96,8 @@ footer a {
   display: flex;
   width: 176px;
   height: 48px;
-  margin-left: 25px;
-  margin-bottom: 35px;
+  margin-left: 45px;
+  margin-bottom: 15px;
 }
 
 .main_first-box--icons--doc {
@@ -97,8 +134,17 @@ footer a {
           box-shadow: 0px 75px 100px rgba(0, 0, 0, 0.24776);
   border-radius: 10px;
   margin-left: 30px;
-  margin-top: -150px;
+  margin-top: 100px;
   position: relative;
+}
+
+@media screen and (min-width: 375px) {
+  .main_second-box {
+    width: 326px;
+    height: 196px;
+    margin: 15px auto;
+    position: static;
+  }
 }
 
 .main_second-box--sentence {
@@ -107,6 +153,13 @@ footer a {
   margin-left: 30px;
   padding-top: 0px;
   font-size: 14px;
+}
+
+@media screen and (min-width: 375px) {
+  .main_second-box--sentence {
+    padding-bottom: 10px;
+    margin-left: 40px;
+  }
 }
 
 .main_second-box--sentence--bold {
@@ -123,6 +176,13 @@ footer a {
   border: 2px solid #0c122c;
 }
 
+@media screen and (min-width: 375px) {
+  .main_second-box--progress-bar {
+    width: 262px;
+    height: 20px;
+  }
+}
+
 .main_second-box--progress-bar--sub1 {
   width: 331px;
   height: 17px;
@@ -134,14 +194,28 @@ footer a {
   margin-bottom: 3px;
 }
 
+@media screen and (min-width: 375px) {
+  .main_second-box--progress-bar--sub1 {
+    width: 193px;
+    height: 14px;
+  }
+}
+
 .main_second-box--progress-bar--sub2 {
   background-color: white;
   width: 11px;
   height: 13px;
   border-radius: 60px;
   position: absolute;
-  top: 67px;
+  top: 64px;
   right: 156px;
+}
+
+@media screen and (min-width: 375px) {
+  .main_second-box--progress-bar--sub2 {
+    top: 490px;
+    right: 125px;
+  }
 }
 
 .main_second-box--measures {
@@ -178,6 +252,15 @@ footer a {
   position: absolute;
   top: -60px;
   right: 40px;
+}
+
+@media screen and (min-width: 375px) {
+  .main_second-box--white {
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 570px;
+    right: 90px;
+  }
 }
 
 .main_second-box--white--value {
@@ -217,5 +300,11 @@ footer a {
   position: absolute;
   top: 23px;
   right: 40px;
+}
+
+@media screen and (min-width: 375px) {
+  .main_second-box--triangle {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
