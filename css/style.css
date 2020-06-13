@@ -9,6 +9,8 @@ body {
   border: 0px;
   text-align: center;
   background-image: url(/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #icons-container {
@@ -237,5 +239,17 @@ footer {
   line-height: 14px;
   text-align: center;
   color: #dbd9ff;
+}
+
+#gb-815 {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: repeat-x;
+    background-size: bottom;
+  }
 }
 /*# sourceMappingURL=style.css.map */
