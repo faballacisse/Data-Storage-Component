@@ -1,3 +1,6 @@
+//importing external styling data
+@import 'variables';
+
 * {
     box-sizing: border-box;
 }
@@ -17,4 +20,49 @@ footer {
     a {
         color: hsl(228, 45%, 44%);
     }
+}
+
+
+.main {
+
+    &_first-box {
+
+        &--logo {}
+
+        &--icons {
+
+            &--doc {}
+
+            &-folder {}
+
+            &--upload {}
+        }
+    }
+
+    &_second-box {
+
+        &--sentence {}
+
+        &--progress-bar {
+
+            &--sub1 {}
+
+            &--sub2 {}
+        }
+
+        &--measures {
+
+            &--1 {}
+
+            &--2 {}
+        }
+
+        &--white {
+
+            &--value {}
+        }
+
+    }
+
+
 }
