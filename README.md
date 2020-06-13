@@ -29,4 +29,6 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 
 ## Deploy your project : done via Netfily 🚀 Here's the link to the website I've coded : https://youthful-golick-2078d8.netlify.app/
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ddb2c6c-3f9c-4237-8fce-2c9bd180285b/deploy-status)](https://app.netlify.com/sites/youthful-golick-2078d8/deploys)
+
 
